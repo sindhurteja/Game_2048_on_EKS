@@ -12,11 +12,11 @@ A production-grade, auto-scaling, highly available, secure application that demo
 
 🔹 Key Highlights:
 
- ✅ Serverless Containers: EKS Fargate eliminated the overhead of managing worker nodes - no patching, no scaling headaches, just pure application focus
- ✅ Intelligent Load Balancing: Ingress - AWS LB Controller automatically provisions and configures Application Load Balancers, enabling path-based routing
- ✅ OIDC Integration: Configured IAM OIDC connect provider to enable secure, native AWS IAM authentication for Kubernetes service accounts
- ✅ Helm-Powered Deployment: Leveraged Helm charts to deploy the AWS Load Balancer
- ✅ Networking: VPC with private/public subnet isolation
+ ✅ Serverless Containers: EKS Fargate eliminated the overhead of managing worker nodes - no patching, no scaling headaches, just pure application focus \
+ ✅ Intelligent Load Balancing: Ingress - AWS LB Controller automatically provisions and configures Application Load Balancers, enabling path-based routing \
+ ✅ OIDC Integration: Configured IAM OIDC connect provider to enable secure, native AWS IAM authentication for Kubernetes service accounts \
+ ✅ Helm-Powered Deployment: Leveraged Helm charts to deploy the AWS Load Balancer \
+ ✅ Networking: VPC with private/public subnet isolation \
 
 💼 Real Business Benefits:
 
