@@ -1,17 +1,17 @@
 # Game_2048: Application deployed on AWS EKS using AWS Fargate
-This is a demo/POC to deploy a 2048 game application on AWS EKS with AWS Fargate and expose to public using Ingress and ALB
+This is a demo/POC to deploy a 2048 game application on AWS EKS with AWS Fargate and expose to public using Ingress and ALB  
 
 
-<img width="650" height="350" alt="image" src="https://github.com/user-attachments/assets/07ecb714-f77d-40b7-8e0b-f23b1ce7dd03" /> \
+<img width="650" height="350" alt="image" src="https://github.com/user-attachments/assets/07ecb714-f77d-40b7-8e0b-f23b1ce7dd03" /> 
 
 
-# The Setup:
+**The Setup:**
 Deployed the 2048 game on AWS EKS with Fargate, using Helm to install the AWS Load Balancer Controller, and integrated OIDC Connect provider with EKS for secure service account authentication. 
 
-# Result:
+**Result:**
 A production-grade, auto-scaling, highly available, secure application that demonstrates enterprise-level architecture patterns. 🚀 
 
-# Key Highlights:
+**Key Highlights:**
 
  ✅ Serverless Containers: EKS Fargate eliminated the overhead of managing worker nodes - no patching, no scaling headaches, just pure application focus \
  ✅ Intelligent Load Balancing: Ingress - AWS LB Controller automatically provisions and configures Application Load Balancers, enabling path-based routing \
@@ -19,7 +19,7 @@ A production-grade, auto-scaling, highly available, secure application that demo
  ✅ Helm-Powered Deployment: Leveraged Helm charts to deploy the AWS Load Balancer \
  ✅ Networking: VPC with private/public subnet isolation 
 
-# Real Business Benefits:
+**Real Business Benefits:**
 
 💰 Cost Efficiency: Pay only for actual usage—no idle servers burning budget \
 📈 Handles Growth Automatically: Scale seamlessly without manual intervention or additional overhead \
@@ -28,6 +28,6 @@ A production-grade, auto-scaling, highly available, secure application that demo
 🚀 Team Productivity: Infrastructure management is automated — teams can focus on building applications, not maintaining servers \
 📊 Visibility & Control: Real-time monitoring catches issues before customers are affected
 
-# Total Cost for the demo setup: $0.73 (~2.5 Hrs)
+**Total Cost for the demo setup: $0.73 (~2.5 Hrs)**
 
 Deploying this application reinforced critical lessons about EKS, Fargate, and building resilient, scalable cloud-native systems
