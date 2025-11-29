@@ -1,12 +1,28 @@
 # Game_2048: Application deployed on AWS EKS using AWS Fargate
-This is a demo/POC to deploy a 2048 game application on AWS EKS with AWS Fargate and expose to public using Ingress and ALB  
+This is a demo/POC to deploy a 2048 game application on AWS EKS with AWS Fargate and expose to the public using Ingress and ALB  
+
+**_What is AWS EKS?_**
+
+AWS Elastic Kubernetes Service (AWS EKS) is a managed Kubernetes service offered by AWS (Amazon Web Services)
+
+AWS EKS manages the Kubernetes control plane, ensuring the availability, scalability, and security of the Kubernetes control plane.
+
+The Kubernetes Control Plane components include the API Server, etcd, Scheduler, Controller Manager, etc.
+
+To know more about AWS EKS, [check AWS Documentation](https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html)
+
+_**What is AWS Fargate**_: 
+
+AWS Fargate is a serverless technology that provides on-demand and right-sized compute capacity that allows you to run containers without managing the underlying virtual machines.
+
+To know more about AWS EKS with Fargate, [check AWS Documentation](https://docs.aws.amazon.com/eks/latest/userguide/fargate.html)
+
+**The Setup:**
+Deployed the 2048 game on AWS EKS with Fargate, using Helm to install the AWS Load Balancer Controller, and integrated OIDC Connect provider with EKS for secure service account authentication.<br\><br\>
 
 
 <img width="650" height="350" alt="image" src="https://github.com/user-attachments/assets/07ecb714-f77d-40b7-8e0b-f23b1ce7dd03" /> 
 
-
-**The Setup:**
-Deployed the 2048 game on AWS EKS with Fargate, using Helm to install the AWS Load Balancer Controller, and integrated OIDC Connect provider with EKS for secure service account authentication. 
 
 **Result:**
 A production-grade, auto-scaling, highly available, secure application that demonstrates enterprise-level architecture patterns. 🚀 
