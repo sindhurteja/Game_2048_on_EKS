@@ -1,5 +1,10 @@
-# Game_2048: Application deployed on AWS EKS using AWS Fargate
-This is a demo/POC to deploy a 2048 game application on AWS EKS with AWS Fargate and expose to the public using Ingress and ALB  
+# Game_2048: Application deployed on AWS EKS using AWS Fargate  
+
+This is a demo/POC for deploying a 2048 game application on AWS EKS with AWS Fargate and exposing it to the public using Ingress Controller, i.e. ALB-Controller.  
+
+For step-by-step implementation of the game 2048 on AWS EKS with Fargate, follow the [Implementation Guide](https://github.com/sindhurteja/Game_2048_on_EKS/blob/main/step-by-step%20implementation.md) OR check the file **"step-by-step implementation.md"**  
+
+### **Quick overview on key highlights, benefits of this demo:**  
 
 **_What is AWS EKS?_**
 
